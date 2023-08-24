@@ -6,7 +6,7 @@ export type TLoadingOther = {
   projectName: string
 }
 
-export type TRepoURL<T extends string> = `https://gitee.com/redstone-1/${T}.git`;
+export type TRepoURL<T extends string> = `https://gitee.com/yuxinqiang/${T}.git`;
 
 export interface IRepoURLTag {
   vueTemplate: 'vue-template';

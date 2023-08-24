@@ -1,7 +1,5 @@
 /**
  * 静态变量
- * @author xiwenge <1825744594@qq.com>
- * @create 2023/06/25
  */
 import fs from "fs-extra";
 import path from "path";
@@ -28,7 +26,7 @@ export const BRAND_LOGO = `
 export const VERSION = version;
 
 export const getRepoURL = (tag: TRepoURLTag): TRepoURL<TRepoURLTag> => {
-  return `https://gitee.com/redstone-1/${tag}.git`;
+  return `https://gitee.com/yuxinqiang/${tag}.git`;
 };
 
 export const downloadGitRepo = util.promisify(download);
