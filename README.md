@@ -25,4 +25,3 @@ node 版本 14.18+ 或 16+ 或更高
 `byl <command> --help`
 
 例如：`byl create --help`
-。
